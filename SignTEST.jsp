@@ -10,7 +10,7 @@
 	TEST PAGE(SIGN IN)
 	<hr>
 	<from action="from_SignTEST_2.jsp" name="person_info" method="get">
-			<p style="text-align:center"><b>SIGN IN</b><p>
+			<p style="text-align:center"><font size="20"><b>SIGN IN</font></b><p>
 			
 			<p style="text-align:center">ID <br>
 			<p style="text-align:center"><input type="text" name="p_id" size="16"> &nbsp;
