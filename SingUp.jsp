@@ -48,7 +48,7 @@
 <body>
 	TEST PAGE(SIGN UP)
 	<hr>
-	<form action="SignUp_C.jsp" name="u_info" method="post" onsubmit="return f_check()"> 
+	<form action="SignUp_C.jsp" name="u_info" method="post" onsubmit="return f_check()">
 		<div align="center"><fieldset style="width:500px">
 			<p style="text-align:center"><font size="20"><b>SIGN UP</font></b><p>
 			
@@ -86,9 +86,12 @@
 			<p style="text-align:center"><textarea name="Introduction" style="width:500px" cols="100" row="5"></textarea>
 			<hr>
 			
-			<div align="center">
-			<input type="submit" value="FINISH"> &nbsp;
-			<input type="submit" value="CANCEL">
+			<form action="SignUp_C.jsp" name="u_info" method="post" onsubmit="return f_check()">
+				<input type="submit" value="FINISH"> &nbsp;
+			</form>
+			<form>
+				<input type="submit" value="CANCEL">
+			</form>
 		</div><br>
 		</fieldset>
 	</from>
